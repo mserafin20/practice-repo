@@ -6,3 +6,4 @@ formEl.addEventListener('submit', function(event){
     event.preventDefault();
     resultsEl.textContent="Working? " + inputEl.value;
 });
+
